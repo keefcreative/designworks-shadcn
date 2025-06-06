@@ -1,0 +1,32 @@
+{
+  "name": "dwb-mcp-server-trello",
+  "version": "1.0.0",
+  "description": "Custom Trello MCP Server with board creation and member management",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "mcp",
+    "trello",
+    "model-context-protocol",
+    "board-management"
+  ],
+  "author": "DWB Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "dwb-mcp-server-trello": "./index.js"
+  }
+}

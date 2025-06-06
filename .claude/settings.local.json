@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(find:*)",
+      "Bash(/Users/keithhodgetts/.nvm/versions/node/v22.13.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg \"text-(slate|red|green|blue|yellow)\" /Users/keithhodgetts/Dropbox/Mac/Documents/GitHub/designworks-new/designworks-shadcn/src/app/dashboard/new-request/page.tsx)",
+      "Bash(/Users/keithhodgetts/.nvm/versions/node/v22.13.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg -n \"(text-slate|bg-slate|text-red|bg-red|text-green|bg-green|text-blue|bg-blue)\" \"/Users/keithhodgetts/Dropbox/Mac/Documents/GitHub/designworks-new/designworks-shadcn/src/app/dashboard/new-request/page.tsx\")",
+      "Bash(/Users/keithhodgetts/.nvm/versions/node/v22.13.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg -A 3 -B 1 \"Upload.*text-slate-400\" /Users/keithhodgetts/Dropbox/Mac/Documents/GitHub/designworks-new/designworks-shadcn/src/app/dashboard/new-request/page.tsx)",
+      "Bash(/Users/keithhodgetts/.nvm/versions/node/v22.13.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg \"text-(slate|red|green|blue|yellow)\" /Users/keithhodgetts/Dropbox/Mac/Documents/GitHub/designworks-new/designworks-shadcn/src/components/)",
+      "Bash(/Users/keithhodgetts/.nvm/versions/node/v22.13.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg \"text-(slate|red|green|blue|yellow)\" /Users/keithhodgetts/Dropbox/Mac/Documents/GitHub/designworks-new/designworks-shadcn/src/ --type tsx --type ts)",
+      "Bash(/Users/keithhodgetts/.nvm/versions/node/v22.13.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg \"border-border\" /Users/keithhodgetts/Dropbox/Mac/Documents/GitHub/designworks-new/designworks-shadcn/src/)",
+      "Bash(/Users/keithhodgetts/.nvm/versions/node/v22.13.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg \"Priority\" /Users/keithhodgetts/Dropbox/Mac/Documents/GitHub/designworks-new/designworks-shadcn/src/app/dashboard/requests/)",
+      "Bash(/Users/keithhodgetts/.nvm/versions/node/v22.13.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg \"border-border\" /Users/keithhodgetts/Dropbox/Mac/Documents/GitHub/designworks-new/designworks-shadcn/src/app/dashboard/requests/\\[id\\]/page.tsx)",
+      "Bash(rm:*)",
+      "Bash(/Users/keithhodgetts/.nvm/versions/node/v22.13.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg -A 10 \"validateFiles\" /Users/keithhodgetts/Dropbox/Mac/Documents/GitHub/designworks-new/designworks-shadcn/src/lib/supabase/db.ts)",
+      "Bash(/Users/keithhodgetts/.nvm/versions/node/v22.13.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/arm64-darwin/rg -A 25 \"export function validateFiles\" /Users/keithhodgetts/Dropbox/Mac/Documents/GitHub/designworks-new/designworks-shadcn/src/lib/supabase/db.ts)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(npx shadcn@latest add:*)"
+    ],
+    "deny": []
+  }
+}
